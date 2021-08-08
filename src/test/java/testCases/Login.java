@@ -22,6 +22,7 @@ public class Login extends TestBase {
 		HomePage hmpg = new HomePage(driver);
 
 		Assert.assertTrue(hmpg.homePageVerification());
+		System.out.println("CODE");
 	}
 
 	@AfterTest
